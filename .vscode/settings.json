@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./bot"
+    ],
+    "editor.find.autoFindInSelection": "always",
+    "workbench.editor.defaultBinaryEditor": "default"
+}

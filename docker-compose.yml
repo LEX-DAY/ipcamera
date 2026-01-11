@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    network_mode: host
+    volumes:
+      - ./video_buffer:/app/video_buffer
+    restart: always
